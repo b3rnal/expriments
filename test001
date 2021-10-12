@@ -1,0 +1,24 @@
+   string tecla;
+            Console.WriteLine("Por favor ingrese un numero");
+            tecla = Console.ReadLine();
+            int result;
+            result = Int32.Parse(tecla);
+            string[] semana = { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo" };
+            int control = 0;
+            foreach (string i in semana)
+            {
+
+                control++;
+                if (result == control)
+                {
+
+
+                    Console.WriteLine(i);
+
+                }
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine("Toque cualquier tecla para salir");
+
+            Console.ReadKey();
