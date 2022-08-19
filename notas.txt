@@ -1,0 +1,35 @@
+#Comandos importantes git 
+
+
+git init -b main
+
+
+#Update, then Work
+#Once you've established working in your repo, you should follow these steps when starting to work each time in the repo:
+
+
+git add . && git commit -m "initial commit"
+
+git remote add origin URL_HERE
+git remote -v
+
+#Update your local repo from the central repo (git pull upstream master).
+
+
+
+git pull upstream master
+
+
+#Make edits, save, git add, and git commit all in your local repo.
+
+
+#Push changes from local repo to your fork on github.com (git push origin master)
+
+git push origin master
+
+
+#Update the central repo from your fork (Pull Request)
+
+Pull Request
+
+Repeat.
